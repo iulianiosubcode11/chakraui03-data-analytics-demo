@@ -15,7 +15,7 @@ function AppLayout(props) {
             <AppBody/>
             <AppSidebar/>
             <AppAside/>            
-            <AppFooter/>
+            <AppFooter/>ceva
         </React.Fragment>
     )
 }
