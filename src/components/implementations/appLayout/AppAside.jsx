@@ -1,12 +1,14 @@
 import React from "react";
-import { Text } from "@chakra-ui/react";
+import { Text, Flex, VStack } from "@chakra-ui/react";
 import { withRouter } from "react-router";
 
 function AppAside(props) {
 
     return (
         <React.Fragment>
-            <Text>Hello Aside</Text>
+            <VStack h="100%" w="300px" bg="green.100"  style={{minWidth: "300px", maxWidth: "300px"}}>
+                <Text>Hello Aside</Text>
+            </VStack>
         </React.Fragment>
     )
 }
